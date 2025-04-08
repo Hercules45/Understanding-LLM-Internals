@@ -1,13 +1,11 @@
 # Understanding Large Language Models: Visualization and Training Concepts
 
-<!--- Removed top badges for less redundancy -->
-
 ## Overview ✨
 
 Welcome! This repository offers a two-part guide designed to demystify the internal workings and training lifecycle of modern Large Language Models (LLMs), focusing on the Transformer architecture. We aim to bridge the gap between abstract concepts and concrete examples by visualizing a real model's parameters and explaining how such models learn.
 
 *   **Part 1** explores and visualizes the architecture, parameters, and dynamic attention mechanisms of the `deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B` model to build intuition.
-*   **Part 2** provides a conceptual overview of the LLM training lifecycle, including pre-training, fine-tuning strategies (SFT, Alignment with RLHF/GRPO/DPO), knowledge distillation, and parameter-efficient techniques (PEFT/LoRA).
+*   **Part 2** provides a conceptual overview of the LLM training lifecycle, including pre-training, fine-tuning strategies (SFT, Alignment with RLHF/GRPO), knowledge distillation, and parameter-efficient techniques (PEFT/LoRA).
   
 
 ## Target Audience 🎯
@@ -29,7 +27,7 @@ This guide covers the following key areas across two notebooks:
 **Part 1: Architecture & Visualization (`LLM_Architecture_Visualization.ipynb`)**
 *   **Foundations:** Core ML/ANN concepts, parameters.
 *   **Input:** Tokenization, Token Embeddings (visualized).
-*   **Transformer Blocks:** Self-Attention (QKV, Multi-Head, GQA context), Position-wise Feed-Forward Networks (FFN using SwiGLU), Layer Normalization (RMSNorm), Residual Connections (components visualized for Layer 0, Middle, Last).
+*   **Transformer Blocks:** Self-Attention (QKV, Multi-Head, GQA context), Position-wise Feed-Forward Networks (FFN using SwiGLU), Layer , Residual Connections (components visualized for Layer 0, Middle, Last).
 *   **Output:** Final Normalization, Language Modeling Head (visualized, weight tying checked).
 *   **Analysis:** Parameter statistics across layers, dynamic attention pattern heatmaps, aggregate weight visualizations (Q, K, V, O, FFN projections across all layers).
 
@@ -37,7 +35,7 @@ This guide covers the following key areas across two notebooks:
 *   **Pre-training:** Building foundational knowledge (Next-Token Prediction).
 *   **Knowledge Distillation:** Context for the specific `DeepSeek-R1-Distill` model.
 *   **Fine-tuning:** Supervised Fine-tuning (SFT) / Instruction Tuning.
-*   **Alignment Tuning:** Concepts of RLHF/PPO, GRPO, DPO.
+*   **Alignment Tuning:** Concepts of RLHF/PPO, GRPO.
 *   **Efficiency:** Parameter-Efficient Fine-tuning (PEFT), focusing on LoRA.
 
 
