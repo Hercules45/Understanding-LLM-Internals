@@ -33,13 +33,13 @@ This guide covers the following key areas across two notebooks:
 *   **Output:** Final Normalization, Language Modeling Head (visualized, weight tying checked).
 *   **Analysis:** Parameter statistics across layers, dynamic attention pattern heatmaps, aggregate weight visualizations (Q, K, V, O, FFN projections across all layers).
 
-**Part 2: Training & Fine-tuning Concepts (`Understanding_LLM_Training_Lifecycle_Part2.ipynb`)**
+**Part 2: Training & Fine-tuning Concepts (`LLM_Training_Lifecycle.ipynb`)**
 *   **Pre-training:** Building foundational knowledge (Next-Token Prediction).
 *   **Knowledge Distillation:** Context for the specific `DeepSeek-R1-Distill` model.
 *   **Fine-tuning:** Supervised Fine-tuning (SFT) / Instruction Tuning.
 *   **Alignment Tuning:** Concepts of RLHF/PPO, GRPO, DPO.
 *   **Efficiency:** Parameter-Efficient Fine-tuning (PEFT), focusing on LoRA.
-*   **Tools:** Overview of relevant Hugging Face libraries (`datasets`, `transformers`, `peft`, `trl`) and practical examples (like Unsloth).
+
 
 ## Notebooks
 
@@ -49,9 +49,9 @@ This guide covers the following key areas across two notebooks:
     *   [![Open Part 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hercules45/Understanding-LLM-Internals/blob/main/LLM_Architecture_Visualization.ipynb)
 
 2.  **Part 2: Training & Fine-tuning Concepts**
-    *   **File:** `Understanding_LLM_Training_Lifecycle_Part2.ipynb`
+    *   **File:** `LLM_Training_Lifecycle.ipynb`
     *   **Focus:** Provides a conceptual explanation of the LLM training lifecycle relevant to the model in Part 1. Contains no runnable training code.
-    *   [![Open Part 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hercules45/Understanding-LLM-Internals/blob/main/Understanding_LLM_Training_Lifecycle_Part2.ipynb)
+    *   [![Open Part 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hercules45/Understanding-LLM-Internals/blob/main/LLM_Training_Lifecycle.ipynb)
     
 
 ## Model Used (for Visualization in Part 1)
@@ -72,7 +72,7 @@ This guide covers the following key areas across two notebooks:
 *   Internet connection (for model download).
 *   Sufficient RAM (>= 12GB recommended) and GPU VRAM (>= 8GB recommended).
 
-## Limitations
+## Some Things to Consider
 
 *   **Part 1 Focus:** Primarily architecture, parameters, attention visualization. Excludes runnable training, activation analysis. Aggregate plots are resource-heavy.
 *   **Part 2 Focus:** Conceptual explanations only; no runnable training code.
