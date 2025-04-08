@@ -64,7 +64,7 @@ This guide covers the following key areas across two notebooks:
 3.  **Run Cells Sequentially:** Execute the notebook cells in order. 
 4.  **Explore:** Read the explanations and observe the generated outputs and visualizations in Part 1. *Note: The aggregate weight plots near the end of Part 1 can be very resource-intensive (RAM/CPU) and may take significant time to render or cause slowdowns.*
 
-## Requirements (for Part 1)
+## Requirements
 
 *   Python libraries: `transformers`, `torch`, `accelerate`, `matplotlib`, `seaborn`, `numpy`. (Installed by the notebook).
 *   Internet connection (for model download).
