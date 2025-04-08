@@ -8,6 +8,7 @@ Welcome! This repository offers a two-part guide designed to demystify the inter
 
 *   **Part 1** explores and visualizes the architecture, parameters, and dynamic attention mechanisms of the `deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B` model to build intuition.
 *   **Part 2** provides a conceptual overview of the LLM training lifecycle, including pre-training, fine-tuning strategies (SFT, Alignment with RLHF/GRPO/DPO), knowledge distillation, and parameter-efficient techniques (PEFT/LoRA).
+  
 
 ## Target Audience 🎯
 
@@ -19,6 +20,7 @@ This guide is intended for:
 *   Anyone seeking a deeper understanding of how LLMs function and learn.
 
 Basic familiarity with Python is assumed. Key concepts are explained within the notebooks.
+
 
 ## Content Overview 📚
 
